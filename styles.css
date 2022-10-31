@@ -1,0 +1,203 @@
+
+    body {
+
+        background-image: url('./images/bg-pattern-bottom.svg'), url('./images/bg-pattern-bottom.svg');
+        background-repeat: no-repeat;
+        background-position: left top -26rem, right top 26rem;
+        background-size: 55rem;
+        background-color: hsl(185, 92%, 34%);
+
+    }
+
+    .main-container {
+
+        width: 25vw;
+        height: 59vh;
+        /* border: 1px solid black; */
+        margin: 10rem auto;
+        position: relative;
+        border-top-left-radius: 1.1rem;
+        border-top-right-radius: 1.1rem;
+        border-bottom-left-radius: 1.1rem;
+        border-bottom-right-radius: 1.1rem;
+        box-shadow: 6px 8px 30px 2px rgb(19, 17, 17);
+
+    }
+
+    .cover-container {
+
+        width: 100%;
+        height: 33%;
+        /* border: 1px solid black; */
+        box-sizing: border-box;
+        background-image: url('./images/bg-pattern-card.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 1.1rem;
+        border-top-right-radius: 1.1rem;
+        
+    }
+
+    .image-container {
+
+        display: block;
+        border: 6px solid antiquewhite;
+        position: absolute;
+        /* margin: 0 auto; */
+        width: 5rem;
+        height: 5rem;
+        top: 6rem;
+        left: 6.5rem;
+        z-index: 1;
+        border-top-left-radius: 4.5rem;
+        border-top-right-radius: 4.5rem;
+        border-bottom-left-radius: 4.5rem;
+        border-bottom-right-radius: 4.5rem;
+    }
+
+    .info-container {
+
+        width: 100%;
+        height: 66.9%;
+        border: .1px solid rgb(255, 255, 255);
+        position: relative;
+        box-sizing: border-box;
+        border-bottom-left-radius: 1.1rem;
+        border-bottom-right-radius: 1.1rem;
+        /* bottom: 4.6rem; */
+    }
+.info-container{
+
+    background-color: antiquewhite;
+    
+}
+.name{
+
+    width: 43%;
+    height: 1.8rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 0;
+    margin-top: 4rem;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(42, 41, 41);
+}
+.location{
+
+    width: 17%;
+    height: 1.4rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    margin-top: .5rem;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(42, 41, 41);
+}
+
+.unique{
+
+    color: grey;
+}
+
+.horizontal-line{
+
+    border-color: rgb(198, 198, 198);
+    height: .8px;
+    padding: 0;
+}
+
+.statistics{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+    /* border: 1px solid black; */
+    width: 95%;
+    height: 4rem;
+}
+
+.followers,
+.likes,
+.Photos{
+
+    width: 30%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+.s1,
+.s2,
+.s3{
+
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    height: 1rem;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12.5px;
+    opacity: 0.9;
+    color: rgb(42, 41, 41);
+}
+
+.s1-parent,
+.s2-parent,
+.s3-parent{
+
+    height: 1.5rem;
+    text-align:center;
+    font-size: 18px;
+}
+
+@media (min-width:300px) and (max-width:960px){
+
+.main-container{
+
+    width: 19rem;
+    height: 26rem;
+    margin: 0;
+    margin-top: 6rem;
+    
+}
+
+body{
+
+    background-image: url('./images/bg-pattern-bottom.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: top left -5rem, right -4.3rem top 28rem;
+    background-size: 17rem;
+
+}
+
+}
+
+@media (min-width:960px) and (max-width:5000px){
+
+    .main-container{
+
+        height: 29rem;
+        width: 24rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+        
+    }
+
+    .image-container{
+
+        left: 9.2rem;
+    }
+
+}
